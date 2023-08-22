@@ -20,7 +20,6 @@ This is practice JavaScript project depicting a Form Letter of my own making
 * JavaScript
 * Bootstrap
 
-## 
 
 ## Known Bugs
 
