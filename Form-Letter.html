@@ -7,7 +7,7 @@
     <script src="js/scripts.js"></script>
   </head>
   <body>
-    <h1>Make your own postcard!</h1>
+    <h1 id="title">Make your own postcard!</h1>
     <form>
       <label for="user1Input">Your name</label>
       <input id="user1Input" type="text" name="user1Input">
@@ -17,8 +17,12 @@
     </form>
 
     <div id="story" class="hidden">
-      <h1>My Postcard</h1>
-      <p>Lorem ipsum, <span id="user-1-response">_________</span> dolor sit amet, <span id ="user-2-response">_________</span> consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div class="card">
+        <div class="card-body">
+          <h1 id="sub-title" class="card-title">My Postcard</h1>
+          <p class="card-text">Lorem ipsum, <span id="user-1-response">_________</span> dolor sit amet, <span id ="user-2-response">_________</span> consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
     </div>
   </body>
 </html>
